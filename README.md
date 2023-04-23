@@ -33,4 +33,4 @@ Users should be able to:
 - Tailwind CSS
 ## Author
 
-- Website - [Sagar Jaswal](https://www.your-site.com)
+- Website - [Sagar Jaswal](https://github.com/sj9102001)
