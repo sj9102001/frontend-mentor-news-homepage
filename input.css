@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+@layer base {
+    html {
+        @apply font-inter;
+    }
+    a {
+        @apply text-gray-500 hover:text-softOrange;
+    }
+}
+
+@layer components {
+    .trending-container {
+        @apply flex flex-row space-x-4;
+    }
+    .trending-rank {
+        @apply text-3xl text-grayishBlue font-bold;
+    }
+    .trending-header {
+        @apply text-xl font-bold hover:text-softRed hover:cursor-pointer;
+    }
+}
